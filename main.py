@@ -23,3 +23,5 @@ for a in range(1, down1+1):
 for i in range(0, down1+1):
     subprocess.call ('ffmpeg -i http://nsu.vod.cdn.cloudn.co.kr/nsu/_definst_/nsucdn_nsu/lms_nsu/course_vod/%s/%s/%s.mp4/playlist.m3u8 -acodec copy -absf aac_adtstoasc %s.mp4'% (gangjoa[i], gangyee[i], name[i], file[i]), shell=True)
     i += 1
+
+print("Done!")
