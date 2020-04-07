@@ -10,7 +10,7 @@ gangyee = input("다운로드할 강좌의 '강의 코드'를 입력해 주세�
 
 for a in range(1, down1+1):
     print("%s번째로 다운로드할 강좌의 '영상 이름'을 입력해 주세요" % (a))
-    g1 = input("입력 예시 : xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx")
+    g1 = input("입력 예시 : xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx : ")
     name.append(g1)
     g2 = input("%s번째로 다운로드할 강좌의 파일 이름을 입력해 주세요 (예 : 1st) : " % (a))
     file.append(g2)
