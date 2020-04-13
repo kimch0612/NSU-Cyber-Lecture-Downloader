@@ -18,11 +18,11 @@ for a in range(1, down1+1):
     a += 1
 
 try:
-    os.mkdir("%s" % (gangyee))
+    os.mkdir("%s" % (gangjoa))
 except:
     pass
 
-os.chdir(gangyee)
+os.chdir(gangjoa)
 
 for i in range(0, down1):
     subprocess.call ('ffmpeg -i http://nsu.vod.cdn.cloudn.co.kr/nsu/_definst_/nsucdn_nsu/lms_nsu/course_vod/%s/%s/%s.mp4/playlist.m3u8 -preset veryfast -acodec copy -b:v 6000k %s.mp4'% (gangjoa, gangyee, name[i], file[i]), shell=True)
