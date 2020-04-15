@@ -13,7 +13,7 @@ rtmp://nsu.vod.cdn.cloudn.co.kr/nsu/_definst_/nsucdn_nsu/lms_nsu/course_vod/강�
 사이트에서 스트리밍을 할 때는 Flash Player에서 rtmp 형식의 링크를 사용합니다만, 다운로드를 할 때 위의 프로토콜을 사용하면 강의 시간만큼 다운로드 시간이 비례하여 증가하게 됩니다.  
 위의 문제를 해결하기 위하여 이 프로그램은 Wowza http 가속 다운로드 기능과 Intel Quicksync 기술을 사용하므로 rtmp 링크 형식을 http 링크 형식으로 변환하여 사용해야 합니다.  
 (약 24분 30초 영상을 다운로드 하는데 3분 30초 소요)  
-프로그램을 실행한 뒤 URL 입력창이 뜬다면 rtmp://nsu.vod.cdn.cloudn.co.kr/nsu/_definst_/nsucdn_nsu/lms_nsu/course_vod/과목코드/강의코드/영상이름.mp4 가 아니라 nsu.vod.cdn.cloudn.co.kr/nsu/_definst_/nsucdn_nsu/lms_nsu/course_vod/과목코드/강의코드/영상이름 로 입력해주면 됩니다.  
+프로그램을 실행한 뒤 URL 입력창이 뜬다면 rtmp://nsu.vod.cdn.cloudn.co.kr/nsu/_definst_/nsucdn_nsu/lms_nsu/course_vod/과목코드/강의코드/영상이름.mp4 가 아니라 nsu.vod.cdn.cloudn.co.kr/nsu/_definst_/nsucdn_nsu/lms_nsu/course_vod/강좌코드/강의코드/영상이름 로 입력해주면 됩니다.  
 # URL 확인 방법  
 강의 영상을 재생한 뒤 크롬 기준 F12를 눌러 개발자 도구를 여세요.  
 html 소스가 나왔다면 Ctrl + F 두 키를 눌러서 검색창을 연 뒤 rtmp이라고 검색해보세요.  
