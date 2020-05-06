@@ -8,8 +8,8 @@ Namseoul Univ. (NSU) Cyber Lecture Downloader (https://lms.nsu.ac.kr)
 
 # URL 형식
 링크 형식은 다음과 같습니다.  
-rtmp://nsu.vod.cdn.cloudn.co.kr/nsu/_definst_/nsucdn_nsu/lms_nsu/course_vod/강좌코드/강의코드/영상이름.mp4  
-강좌코드의 경우 동일한 강좌라면 코드 또한 동일하며 (ex. A과목을 수강중이라면 1주차, 2주차, 3주차, ..., n주차 모두 강좌 코드는 동일합니다)  
+rtmp://nsu.vod.cdn.cloudn.co.kr/nsu/_definst_/nsucdn_nsu/lms_nsu/course_vod/교과목코드/강의코드/영상이름.mp4  
+강좌코드의 경우 동일한 강좌라면 코드 또한 동일하며 (ex. A과목을 수강중이라면 1주차, 2주차, 3주차, ..., n주차 모두 교과목코드는 동일합니다)  
 강의코드의 경우 강좌나 회차수에 관계 없이 모두 동일한 것으로 추측이 됩니다.  
 영상 재생 엔진으론 Wowza Streaming Engine 4를 사용하고 있습니다.  
 사이트에서 스트리밍을 할 때는 Flash Player에서 rtmp 형식의 링크를 사용합니다만, 다운로드를 할 때 위의 프로토콜을 사용하면 강의 시간만큼 다운로드 시간이 비례하여 증가하게 됩니다.  
